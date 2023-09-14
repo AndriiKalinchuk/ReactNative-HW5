@@ -25,6 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android.config.googleMaps.apiKey": "AIzaSyBUYOuKavd4afzh61KJN4aS_wnyVNCiFN8"
   }
 }
