@@ -8,3 +8,12 @@
 В компоненті окремого посту при кліку на іконку коментарів перекидає на екран CommentsScreen
 У компоненті окремого посту під час кліку на іконку геолокації перекидає на екран MapScreen, де можна побачити мапу з маркером, де була зроблена фотографія
 Макет компонента CommentsScreen з коментарями Макет компонента CreatePostsScreen під час відкриття екрану Макет компонента CreatePostsScreen після зробленого фото Макет компонента MapScreen
+![Alt text](assets/screenshots/1.jpg)
+![Alt text](assets/screenshots/2.jpg)
+![Alt text](assets/screenshots/3.jpg)
+![Alt text](assets/screenshots/4.jpg)
+![Alt text](assets/screenshots/5.png)
+![Alt text](assets/screenshots/photo_5199445425688530186_y.jpg)
+![Alt text](assets/screenshots/photo_5199445425688530187_y.jpg)
+![Alt text](assets/screenshots/photo_5199445425688530188_y.jpg)
+![Alt text](assets/screenshots/photo_5199445425688530200_y.jpg)

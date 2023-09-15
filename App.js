@@ -18,7 +18,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <MainStack.Navigator
-          initialRouteName="Login"
+          initialRouteName="Home"
           screenOptions={{ headerShown: false }}
         >
           <MainStack.Screen

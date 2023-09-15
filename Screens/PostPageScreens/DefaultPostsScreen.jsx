@@ -1,24 +1,15 @@
-import { FlatList, Image } from "react-native";
-import {
-  Dimensions,
-  Keyboard,
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
-import { Text, View } from "react-native";
-
 import { useEffect, useState } from "react";
+import { FlatList, Image, StyleSheet, Text, View } from "react-native";
 import PostsItem from "../../components/PostsItem/PostsItem";
 
 const DefaultPostsScreen = ({ route }) => {
   const [posts, setPosts] = useState([
     {
-      id: "ksdlflsdnfsldjnfdjfsjdkfn",
-      postImg:
-        "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Fgoit-react-native-hw-05-dbed3e8b-5429-4e6e-a6ba-fefe43283569/Camera/1609f830-6073-4560-8596-6f26f450b3a3.jpg",
-      postName: "олл",
-      postAddress: "Ucraine",
-      postLocation: { latitude: 48.383022, longitude: 31.1828699 },
+      id: "123hjklkk3hnjjh",
+      postImg: "../../../assets/img/picture.jpg",
+      postName: "Picture",
+      postAddress: "Лютіж",
+      postLocation: { latitude: 50.6803954, longitude: 30.3832681 },
     },
   ]);
 

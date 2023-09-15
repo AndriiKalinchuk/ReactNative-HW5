@@ -111,19 +111,6 @@ const CreatePostsScreen = () => {
       }
     }
 
-    // if (!cameraRef && postImg) {
-    //   try {
-    //     const avatarImg = await DocumentPicker.getDocumentAsync({
-    //       type: 'image/*',
-    //     });
-
-    //     if (avatarImg.type === 'cancel') return setPostImg('');
-
-    //     setPostImg(avatarImg);
-    //   } catch (error) {
-    //     console.log('Error > ', error.message);
-    //   }
-    // }
     addImageLocation();
   };
 
@@ -322,7 +309,6 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 0,
-    // zIndex: 99,
     flex: 1,
     height: 240,
     maxHeight: 240,
@@ -396,8 +382,8 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
   },
   btn: {
-    marginTop: 32,
-    marginBottom: 120,
+    marginTop: 18,
+    marginBottom: 24,
 
     paddingVertical: 16,
 
@@ -426,6 +412,5 @@ const styles = StyleSheet.create({
 
     backgroundColor: "#f6f6f6",
     borderRadius: 20,
-    // backgroundColor: props.accessibilityState.selected ? '#f6f6f6' : '#ff6c00',
   },
 });

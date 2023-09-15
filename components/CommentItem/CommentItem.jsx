@@ -1,6 +1,6 @@
 import { StyleSheet, View, Image, Text, Dimensions } from "react-native";
 
-const CommentItem = ({ autorAvatar, comment, date }) => {
+const CommentItem = ({ comment, date }) => {
   return (
     <View style={styles.commentItem}>
       <Image style={styles.avatar} />

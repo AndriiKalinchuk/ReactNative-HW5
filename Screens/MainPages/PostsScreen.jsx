@@ -1,5 +1,4 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { Text, View } from "react-native";
 import DefaultPostsScreen from "../PostPageScreens/DefaultPostsScreen";
 import CommentsScreen from "../PostPageScreens/CommentsScreen";
 import MapScreen from "../PostPageScreens/MapScreen";

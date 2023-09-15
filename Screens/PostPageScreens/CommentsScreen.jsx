@@ -18,18 +18,13 @@ const CommentsScreen = ({ navigation, route: { params } }) => {
   const [comments, setComment] = useState([
     {
       authorAvatar: "",
-      comment: "Comment 1sknnn",
-      date: "09 червня, 2020 | 08:40",
+      comment: "1st comment",
+      date: "15 вересня, 2023 | 14:40",
     },
     {
       authorAvatar: "",
-      comment: "Comment 2sknnn",
-      date: "09 червня, 2020 | 08:40",
-    },
-    {
-      authorAvatar: "",
-      comment: "Comment 3sknnn",
-      date: "09 червня, 2020 | 08:40",
+      comment: "2nd comment",
+      date: "15 вересня, 2023 | 14:40",
     },
   ]);
 
@@ -48,7 +43,7 @@ const CommentsScreen = ({ navigation, route: { params } }) => {
     const data = {
       authorAvatar: "",
       comment: commentText,
-      date: "09 червня, 2020 | 08:40",
+      date: "15 вересня, 2023 | 14:40",
     };
 
     setComment((prev) => [...prev, data]);
@@ -123,10 +118,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   commentList: {
-    // borderWidth: 1,
-    // borderColor: '#f6f6f6',
-    // borderRadius: 14,
-
     maxHeight: 312,
     marginBottom: 28,
   },

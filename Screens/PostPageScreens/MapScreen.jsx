@@ -1,8 +1,6 @@
 import { useIsFocused } from "@react-navigation/native";
 import { useEffect, useState } from "react";
-import { Dimensions } from "react-native";
-import { StyleSheet, Text } from "react-native";
-import { View } from "react-native";
+import { View, StyleSheet, Dimensions } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 import { PROVIDER_GOOGLE } from "react-native-maps";
 
@@ -27,13 +25,10 @@ const MapScreen = ({ route, navigation }) => {
       <MapView
         provider={PROVIDER_GOOGLE}
         style={styles.map}
-        initialRegion={{
+        region={{
           ...location,
-
-          // latitude: 48.383022,
-          // longitude: 31.1828699,
-          // latitudeDelta: 0.006,
-          // longitudeDelta: 0.006,
+          latitudeDelta: 0.0922,
+          longitudeDelta: 0.0421,
         }}
       >
         {location && <Marker title="It`s here" coordinate={location} />}
